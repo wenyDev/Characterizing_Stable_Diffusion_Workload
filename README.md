@@ -2,10 +2,10 @@
 This guide provides instructions on how to set up and run Stable Diffusion using Docker. Ensure you have Docker installed on your system to proceed with the setup.
 
 # Getting Started
-# Prerequisites
+## Prerequisites
 Docker must be installed on your machine. If Docker is not already installed, you can download and install it from Docker's official website.
 
-# Installation
+## Installation
 
 1. Clone the repository
 First, clone the repository to your local machine using the following command:
@@ -22,7 +22,7 @@ sudo docker build -t stable-diffusion .
 This command creates a Docker image named stable-diffusion from the Dockerfile located in the current directory.
 
 # Usage
-# Run the Application
+## Run the Application
 To run Stable Diffusion inside a Docker container, execute:
 ```
 docker run --name stable-diffusion -v /YOUR/PATH:/stablediffusion -e NUM_PROMPTS=10 stable-diffusion
