@@ -25,6 +25,10 @@ Run the Application
 To run Stable Diffusion inside a Docker container, execute:
 ```
 docker run --name stable-diffusion -v /YOUR/PATH:/stablediffusion -e NUM_PROMPTS=10 stable-diffusion
+
+
+test
+[Open in Colab](https://colab.research.google.com/drive/19zZqunRLepQalh7REmbcu7dlfxJ4yVL0?usp=sharing)
 ```
 Here's what each part of this command does:
 
