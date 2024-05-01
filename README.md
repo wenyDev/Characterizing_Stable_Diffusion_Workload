@@ -31,5 +31,4 @@ Here's what each part of this command does:
 --name stable-diffusion assigns the name stable-diffusion to your Docker container.  
 -v /YOUR/PATH:/stablediffusion mounts the directory /YOUR/PATH from your host to /stablediffusion inside the Docker container. 
 -e NUM_PROMPTS=10 sets the environment variable NUM_PROMPTS with the value 10, which can be adjusted based on how many prompts you want to process.  
-test
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19zZqunRLepQalh7REmbcu7dlfxJ4yVL0?usp=sharing)
+
